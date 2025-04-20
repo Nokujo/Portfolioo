@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustapha Chouhani - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Mustapha Chouhani</a>
+
+        <!-- Hamburger Button -->
+<button class="hamburger" id="hamburger">
+  <i class="fas fa-bars"></i>
+</button>
+
+<!-- Menu caché sur mobile -->
+<div class="nav-links" id="nav-links">
+  <a href="#acc">Accueil</a>
+  <a href="#aprop">À propos</a>
+  <a href="#cv">CV</a>
+  <a href="#veille">Veille</a>
+  <a href="#parc">Parcours</a>
+  <a href="#proj">Projets</a>
+  <a href="#certif">Certifications</a>
+  <a href="#cont">Contact</a>
+</div>
+
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="acc" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Bienvenue, je suis</h1>
+                    <h2>Mustapha Chouhani</h2>
+                    <div class="accent-line"></div>
+                    <h3>Etudiant BTS SIO</h3>
+                    <p>
+                        Étudiant en BTS SIO option Solution Logiciel et Applications Métiers, 
+                        je partage ici un aperçu de mon parcours, mes projets, et mes compétences 
+                        techniques, développés au fil de ma formation dans le domaine du développement web.
+                    </p>
+                    <a href="#cont" class="cta-button">Contactez moi</a>
+                </div>
+                
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="aprop" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>A propos</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <section class="about">
+                <div class="about-container">
+                  
+                    <div class="about-text">
+                        <h2>À propos de moi</h2>
+                        <p>J’aime comprendre comment les choses fonctionnent, bidouiller, tester des idées. Le développement web me parle parce qu’il mélange logique et créativité. Je suis curieux de nature, souvent dans l’exploration, que ce soit pour apprendre un outil, construire un projet, ou juste satisfaire une intuition.
+
+                            Je n’ai pas encore un chemin tout tracé, mais je cherche à avancer étape par étape, en construisant quelque chose qui me ressemble et qui ait du sens pour moi.</p>
+                        <h3>Mon Parcours</h3>
+                        <p>Après un bac STMG option SIG, j'ai intégré un BTS SIO où j'ai acquis des compétences en développement web, gestion de bases de données et sécurité informatique.</p>
+                        <h3>Compétences</h3>
+                        <ul>
+                            <li>Développement Web : HTML, CSS, JavaScript, PHP</li>
+                            <li>Frameworks : Symfony, Flutter</li>
+                            <li>Gestion de base de données : MySQL</li>
+                            <li>Systèmes : Linux, Windows Server</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+<section id="cv" class="cv">
+    <div class="container">
+        <div class="section-header">
+            <h2>Curriculum Vitae</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="cv-content">
+            <div class="cv-description">
+                <p>Téléchargez mon CV pour plus de détails sur mon parcours professionnel et mes compétences.</p>
+            </div>
+            <div class="cv-download">
+                <a href="pdf/Mustapha-Chouhani.pdf" class="cta-button" target="_blank">
+                    <i class="fas fa-download"></i> Télécharger mon CV
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Veille Technologique Section -->
+<section id="veille" class="veille">
+    <div class="container">
+        <div class="section-header">
+            <h2>Veille Technologique</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="veille-content">
+            
+            
+           
+                
+                <div class="veille-article">
+                    <div class="article-header">
+                        <h2> Cloud Gaming : Enjeux techniques pour les développeurs</h2>
+                        <p class="article-meta">veille réalisée en 2025</p>
+                    </div>
+                    
+                      <div id="intro">
+                        <h3>Introduction</h3>
+                        <p>Le cloud gaming, ou jeu vidéo en streaming, permet à un joueur de profiter d'un jeu sans l'installer sur son appareil. L'ensemble du traitement (graphismes, calculs, logique du jeu) est exécuté sur des serveurs distants, puis la vidéo du jeu est diffusée en temps réel à l'utilisateur via Internet.</p>
+                        <p>Des services comme GeForce Now (NVIDIA), Xbox Cloud Gaming (Microsoft), Amazon Luna, ou feu Google Stadia illustrent cette évolution. Cette technologie repose sur des infrastructures performantes, mais aussi sur un développement logiciel adapté à un nouveau type de distribution.</p>
+                        <p>Avec la disparition progressive des supports physiques et la montée en puissance du tout-dématérialisé, le cloud gaming est perçu comme une tendance lourde de l'industrie vidéoludique. Pour les développeurs, cela implique un changement profond dans la manière de concevoir, d'optimiser et de déployer un jeu.</p>
+                      </div> 
+<br>
+                        <h3> Enjeux techniques pour les développeurs </h3>
+                        <div class="enjeux">
+                            <div class="enjeu">
+                                <h4>1. Gestion de la latence et de l'interactivité</h4>
+                                  <br>
+                                <p>La latence est le principal ennemi du cloud gaming. Pour une bonne jouabilité, le temps entre une action et sa réponse à l'écran doit être inférieur à 50 ms. Cela implique pour les développeurs de :</p>
+                                <br><ul>
+                                    <li>Réduire les appels réseau inutiles.</li>
+                                    <li>Implémenter des systèmes prédictifs côté serveur (anticipation des mouvements).</li>
+                                    <li>Optimiser les moteurs de rendu pour qu'ils s'adaptent aux fluctuations réseau (adaptation FPS, qualité dynamique).</li>
+                                </ul>
+                                <p class="example">📌 Exemple concret : sur GeForce Now, les développeurs doivent adapter leur jeu à des profils de machines cloud standardisées. Le rendu s'ajuste automatiquement à la bande passante du client.</p>
+                            </div>
+                            
+                            <div class="enjeu">
+                                <h4>2. Rendu vidéo distant et adaptation graphique</h4>
+                                <br>
+                                <p>Contrairement à un jeu traditionnel, le rendu graphique se fait côté serveur. Cela implique :</p>
+                                <br><ul>
+                                    <li>D'optimiser l'encodage vidéo : codec performant (H.265, AV1), faible latence.</li>
+                                    <br> <li>D'assurer une qualité constante malgré la variation du débit chez l'utilisateur final.</li>
+                                    <br><li>De concevoir des assets (textures, effets) compatibles avec les techniques de compression.</li>
+                                </ul>
+                                <p>Un mauvais encodage peut dégrader l'expérience (flou, retard d'image), même si la logique du jeu est parfaitement fluide.</p>
+                            </div>
+                            
+                            <div class="enjeu">
+                                <h4>3. Déploiement et maintenance centralisée</h4>
+                                <br><p>L'un des avantages majeurs du cloud gaming pour les éditeurs est que les mises à jour sont faites uniquement sur les serveurs. Cela permet :</p>
+                                <ul>
+                                    <li>Une mise à jour rapide et globale (sans dépendance au matériel de l'utilisateur).</li>
+                                    <br><li>Une gestion simplifiée des versions.</li>
+                                    <br> <li>Des A/B tests (nouveaux menus, équilibrage gameplay) sans perturber l'expérience de tous les joueurs.</li>
+                                </ul>
+                                <p>Côté développeur, cela change les pratiques de déploiement : plus de dépendance à des configurations locales variées (PC, console, mobile), mais un besoin d'infrastructure de CI/CD bien rodée.</p>
+                            </div>
+                            
+                            <div class="enjeu">
+                              <h4>4. Nouvelles compétences techniques à acquérir</h4>
+                              <br>
+                              <p>Le cloud gaming change les habitudes de développement. Au lieu de créer un jeu qui tourne sur une console ou un PC classique, il faut maintenant le faire fonctionner sur des serveurs accessibles à distance, via Internet. Cela demande de nouvelles compétences techniques, que tout développeur doit au moins comprendre.</p>
+                              <br>
+                              <ul>
+                                <li><strong>Connaître les bases du cloud computing :</strong> comprendre ce qu’est un serveur distant, et comment un jeu peut être hébergé et exécuté dans un environnement cloud comme Azure ou AWS.</li>
+                                <br><li><strong>Savoir utiliser les outils fournis par les plateformes :</strong> par exemple le Game Development Kit de Microsoft, qui permet d’optimiser un jeu pour qu’il fonctionne correctement en streaming.</li>
+                                <br><li><strong>Comprendre le fonctionnement du streaming temps réel :</strong> cela implique de savoir comment le jeu est encodé en vidéo, transmis au joueur et rendu sans latence, avec des technologies comme WebRTC ou UDP.</li>
+                                <br> <li><strong>Anticiper la montée en charge :</strong> il faut que le jeu soit capable de fonctionner même si des milliers de joueurs sont connectés en même temps, ce qu’on appelle la scalabilité.</li>
+                              </ul>
+                              <p>Ces compétences ne sont pas toutes obligatoires dès le départ, mais les connaître ou savoir s’y adapter permet de mieux répondre aux exigences des jeux modernes, et de s’inscrire dans des projets orientés cloud.</p>
+                            </div>
+                            
+                            
+                          
+                        </div>
+                        <br>
+                        <h2> Réflexion personnelle </h2>
+                        <br>
+                        <p>Je ne prévois pas forcément de travailler dans le domaine du cloud gaming, mais je trouve intéressant de m’y intéresser d’un point de 
+                          vue technique. Ces dernières années, la dématérialisation a pris une place croissante dans le secteur du jeu vidéo, 
+                          comme en témoignent les services tels que feu Google Stadia ou GeForce Now, ainsi que les modèles récents de consoles Xbox et 
+                          PlayStation qui proposent des versions sans lecteur de disque. On peut se demander si, à l’avenir, ces consoles ne deviendront 
+                          pas de simples boîtiers connectés à des services de cloud gaming, sans besoin d’améliorations matérielles régulières.
+
+                          Pour les développeurs, cette évolution représenterait un gain de temps potentiel. Ils n’auraient plus à adapter leurs jeux aux 
+                          spécificités techniques de chaque console ou à chaque nouvelle génération. Le travail d’optimisation serait allégé, 
+                          et certaines mises à jour, comme l’amélioration graphique, pourraient être appliquées directement côté serveur, sans passer 
+                          par des patchs clients complexes.</p>
+                        
+                        <br><h4> Sources </h4>
+                        <ul class="sources-list">
+                          <li><a href="https://www.nvidia.com/en-us/geforce-now/" target="_blank">NVIDIA GeForce Now</a></li>
+                          <li><a href="https://www.gamebench.net/index.html%3Fp%3D3710.html" target="_blank">GameBench - Cloud Gaming Performance</a></li>
+                          <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128625002038" target="_blank">ScienceDirect - Cloud Gaming Research</a></li>
+                          <li><a href="https://www.reddit.com/r/cloudygamer/comments/1bampvf/how_is_the_latency_on_current_local_cloud_gaming/" target="_blank">Reddit - Latency in Current Cloud Gaming</a></li>
+                          <li><a href="https://www.reddit.com/r/cloudygamer/comments/1as0vzt/if_you_had_to_guesswhen_will_cloud_gaming_be/" target="_blank">Reddit - Future of Cloud Gaming</a></li>
+                          <li><a href="https://web.cs.wpi.edu/~claypool/iqp/cloudgame-19/report.pdf" target="_blank">WPI - Cloud Gaming Technical Report</a></li>
+                          <li><a href="https://youtu.be/eY_zjGAXs_8" target="_blank">YouTube - Cloud Gaming Analysis</a></li>
+                          <li><a href="https://dl.acm.org/doi/10.1145/2072298.2071991" target="_blank">ACM - Cloud Gaming Research Paper</a></li>
+                          <li><a href="https://dl.acm.org/doi/10.1145/3083187.3083191" target="_blank">ACM - Cloud Gaming Performance Study</a></li>
+                          <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128623002530" target="_blank">ScienceDirect - Cloud Gaming Network Analysis</a></li>
+                      </ul>
+                      
+                                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Parcours Section -->
+    <section id="parc" class="parcours">
+        <div class="container">
+            <div class="section-header">
+                <h2>Parcours</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>BTS SIO SLAM</h3>
+                        <p class="timeline-period">2023 - 2025</p>
+                        <p class="timeline-location">Lycée Théodore Aubanel - Avignon</p>
+                        <p class="timeline-description">Formation en développement d'applications et solutions logicielles</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Baccalauréat</h3>
+                        <p class="timeline-period">2021 - 2023</p>
+                        <p class="timeline-location">Lycée Théodore Aubanel - Avignon</p>
+                        <p class="timeline-description">Spécialités: Système d'information et gestion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tableau de Compétences -->
+<section id="competences" class="competences">
+  <div class="container">
+    <div class="section-header">
+      <h2>Tableau de Synthèse</h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="center-button">
+      <div class="center-button">
+        <a href="pdf/Annexe-6-1-Tableau-de-synthese-Epreuve-E4-BTS-SIO-2024.pdf" class="cta-button" target="_blank">Voir le Tableau de Synthèse</a>
+      </div>
+      
+    </div>
+    
+    <!-- Tu peux remplacer ce tableau par une image, un lien PDF ou autre -->
+    <div class="competences-content">
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Projets -->
+<section id="proj" class="projects">
+  <div class="container">
+    <div class="section-header">
+      <h2>Projets & Travaux</h2>
+      <div class="accent-line"></div>
+    </div>
+    
+ 
+  <div class="project-modals">
+    <!-- ZK Isolation Modal -->
+    <div id="modal-zk" class="project-modal">
+      <div class="modal-content">
+        <h3>(Stage) Site vitrine ZK Isolation</h3>
+        <div class="modal-details">
+          <p><strong>Période :</strong> Juin-Juillet 2024</p>
+          <p><strong>Contexte :</strong> Stage de première année BTS SIO</p>
+          <p><strong>Description :</strong> Conception d’un site vitrine pour une entreprise de travaux d’isolation et plaquisterie. L’objectif était de mettre en avant les services de l’entreprise via un site statique structuré avec un CMS existant (éditeur visuel), en intervenant sur le contenu, la structure et l’optimisation du référencement.</p>
+          <ul>
+            <li>Analyse des besoins client et recueil du contenu</li>
+            <li>Paramétrage du responsive design via des modules préconçus</li>
+            <li>Référencement SEO de base (métadonnées, titre, description)</li>
+            <li>Formation du client à l’utilisation de la plateforme</li>
+          </ul>
+          <p><strong>Compétences mobilisées :</strong></p>
+<ul>
+  <li><strong>Développer la présence en ligne de l’organisation</strong>
+    <ul>
+      <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques</li>
+      <li>Référencer les services en ligne de l’organisation et mesurer leur visibilité</li>
+    </ul>
+  </li>
+  <li><strong>Mettre à disposition des utilisateurs un service informatique</strong>
+    <ul>
+      <li>Déployer un service</li>
+      <li>Accompagner les utilisateurs dans la mise en place d’un service</li>
+    </ul>
+  </li>
+  <li><strong>Travailler en mode projet</strong>
+    <ul>
+      <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+      <li>Planifier les activités</li>
+    </ul>
+  </li>
+  <li><strong>Organiser son développement professionnel</strong>
+    <ul>
+      <li>Gérer son identité professionnelle</li>
+    </ul>
+  </li>
+</ul>
+ <a href="pdf/Rapport de stage premiere année.pdf" class="cta-button" target="_blank">Voir le rapport</a>
+ <a href="pdf/attestation stage 1ere annee.pdf" class="cta-button" target="_blank">Voir l'attestation de stage</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Optimisation Web Modal -->
+    <div id="modal-optimisation" class="project-modal">
+      <div class="modal-content">
+        <h3> (Stage) Optimisation site web</h3>
+        <div class="modal-details">
+          <p><strong>Période :</strong> Février-Avril 2025</p>
+          <p><strong>Contexte :</strong> Amélioration des performances du site ZK Isolation</p>
+          <p><strong>Description :</strong> Optimisation complète du site :</p>
+          <ul>
+            <li>Conversion des images au format WebP</li>
+            <li>Refonte de l'interface utilisateur</li>
+            <li>Optimisation des temps de chargement</li>
+          </ul>
+          <p><strong>Compétences mobilisées :</strong></p>
+<ul>
+  <li><strong>Développer la présence en ligne de l’organisation</strong>
+    <ul>
+      <li>Référencer les services en ligne de l’organisation et mesurer leur visibilité</li>
+    </ul>
+  </li>
+  <li><strong>Répondre aux incidents et aux demandes d’assistance et d’évolution</strong>
+    <ul>
+      <li>Participer à l’évolution d’un service</li>
+    </ul>
+  </li>
+  <li><strong>Travailler en mode projet</strong>
+    <ul>
+      <li>Évaluer les indicateurs de suivi d’un projet et analyser les écarts</li>
+    </ul>
+  </li>
+  <li><strong>Organiser son développement professionnel</strong>
+    <ul>
+      <li>Mettre en œuvre des outils et stratégies de veille informationnelle</li>
+    </ul>
+  </li>
+</ul>
+ <a href="pdf/Rapport de stage deuxieme année.pdf" class="cta-button" target="_blank">Voir le rapport</a>
+ <a href="pdf/attestation stage 2eme annee.pdf" class="cta-button" target="_blank">Voir l'attestation de stage</a>       
+</div>
+      </div>
+    </div>
+    
+    <!-- Portfolio Modal -->
+    <div id="modal-portfolio" class="project-modal">
+      <div class="modal-content"> 
+        <h3>Portfolio personnel</h3>
+        <div class="modal-details">
+          <p><strong>Période :</strong> Septembre 2024 - Avril 2025</p>
+          <p><strong>Contexte :</strong> Projet personnel de présentation professionnelle</p>
+          <p><strong>Description :</strong> Conception et développement de mon portfolio professionnel :</p>
+          <ul>
+            <li>Design moderne et responsive</li>
+            <li>Animations JavaScript pour améliorer l'expérience utilisateur</li>
+            <li>Présentation structurée de mes compétences et projets</li>
+            <li>Optimisation pour tous les appareils</li>
+          </ul>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+            <li><strong>Développer la présence en ligne de l’organisation</strong>
+              <ul>
+                <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques</li>
+              </ul>
+            </li>
+            <li><strong>Organiser son développement professionnel</strong>
+              <ul>
+                <li>Gérer son identité professionnelle</li>
+                <li>Développer son projet professionnel</li>
+              </ul>
+            </li>
+          </ul>
+           <a href="https://github.com/Nokujo/Portfolioo" class="cta-button" target="_blank">Voir le code source</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Debian Modal -->
+    <div id="modal-debian" class="project-modal">
+      <div class="modal-content">
+        <h3>TP Serveur Debian 11</h3>
+        <div class="modal-details">
+          <p><strong>Période :</strong> Décembre 2023</p>
+          <p><strong>Contexte :</strong> Travaux pratiques en infrastructure système</p>
+          <p><strong>Description :</strong> Mise en place d’un environnement serveur sous Debian 11 dans une machine virtuelle. Ce TP m’a permis de configurer un service SSH sécurisé, un serveur web Apache, et d’assurer une gestion réseau avec IP statique.</p>
+            <ul>
+              <li>Installation d’un serveur Debian 11 sous VirtualBox</li>
+              <li>Configuration réseau statique (interfaces, passerelle)</li>
+              <li>Installation et vérification du service SSH</li>
+              <li>Déploiement et test du serveur Apache</li>
+              <li>Captures de terminal et documentation des procédures</li>
+            </ul>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+            <li><strong>Gérer le patrimoine informatique</strong>
+              <ul>
+                <li>Mettre en place et vérifier les niveaux d’habilitation associés à une ressource</li>
+                <li>Vérifier le respect des règles d’utilisation des ressources numériques</li>
+              </ul>
+            </li>
+            <li><strong>Répondre aux incidents et aux demandes d’assistance et d’évolution</strong>
+              <ul>
+                <li>Traiter des demandes concernant les services réseau et système</li>
+              </ul>
+            </li>
+            <li><strong>Mettre à disposition des utilisateurs un service informatique</strong>
+              <ul>
+                <li>Réaliser les tests d’intégration et d’acceptation d’un service</li>
+              </ul>
+            </li>
+          </ul>
+          <a href="pdf/serveur_debian11.pdf" class="cta-button" target="_blank">Voir</a>
+        </div>
+      </div>
+    </div>
+      
+          <!-- TP Git Modal -->
+          <div id="modal-git" class="project-modal">
+            <div class="modal-content">
+              <h3>TP Git - Gestion de version</h3>
+              <div class="modal-details">
+                <p><strong>Période :</strong> Novembre 2024</p>
+                <p><strong>Contexte :</strong> Travaux pratiques sur l’utilisation de Git et GitHub</p>
+                <p><strong>Description :</strong> Initiation à Git en ligne de commande pour versionner un projet. Simulation de collaboration avec gestion de branches, de conflits et d’historique de modifications.</p>
+                <ul>
+                  <li>Création et configuration d’un dépôt Git</li>
+                  <li>Commits, branches, merge et résolution de conflits</li>
+                  <li>Connexion à GitHub pour mise en ligne</li>
+                </ul>
+                <p><strong>Compétences mobilisées :</strong></p>
+                <ul>
+                  <li><strong>Travailler en mode projet</strong>
+                    <ul>
+                      <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+                    </ul>
+                  </li>
+                </ul>
+                <a href="pdf/TP_Git_Preuve_Mustapha.pdf" class="cta-button" target="_blank">Voir</a>
+                  </div>
+            </div>
+          </div>
+          <!--<!-- Monopoly Modal -->
+            <div id="modal-monopoly" class="project-modal">
+              <div class="modal-content">
+                <h3>Jeu de Monopoly (Python)</h3>
+                <div class="modal-details">
+                  <p><strong>Période :</strong> Septembre 2024</p>
+                  <p><strong>Contexte :</strong> TP programmation orientée objet</p>
+                  <p><strong>Description :</strong> Développement d’un jeu de Monopoly simplifié en Python, en respectant les concepts de la programmation orientée objet. Le jeu modélise les éléments essentiels : joueurs, cases, terrain, cartes, et gère les tours de jeu ainsi que des actions spécifiques.</p>
+                  <ul>
+                    <li>Structure modulaire avec des classes bien définies : <code>Joueur</code>, <code>Plateau</code>, <code>Partie</code>, <code>Case_speciale</code>, etc.</li>
+                    <li>Mécanismes de jeu automatisés : déplacement, gestion de propriété, passages sur case spéciale</li>
+                    <li>Tests unitaires pour valider le bon fonctionnement de la classe Partie</li>
+                  </ul>
+
+                  <p><strong>Compétences mobilisées :</strong></p>
+                  <ul>
+                    <li><strong>Travailler en mode projet</strong>
+                      <ul>
+                        <li>Structuration du projet en plusieurs fichiers : gestion des joueurs, plateau, parties</li>
+                        <li>Organisation du code orienté objet pour mieux gérer les évolutions futures</li>
+                      </ul>
+                    </li>
+                    <li><strong>Mettre à disposition des utilisateurs un service informatique</strong>
+                      <ul>
+                        <li>Création d’un jeu fonctionnel exécutable en local</li>
+                        <li>Réalisation de tests unitaires avec <code>unittest</code> pour valider le comportement de certaines méthodes</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                  <a href="pdf/Monopoly_Mustapha.pdf" class="cta-button" target="_blank">Voir</a>
+                </div>
+              </div>
+            </div>     
+          <!-- Site e-commerce Modal -->
+          <div id="modal-ecommerce" class="project-modal">
+            <div class="modal-content">
+              <h3>Site e-commerce</h3>
+              <div class="modal-details">
+                <p><strong>Période :</strong> Septembre 2024 - Mai 2025</p>
+                <p><strong>Contexte :</strong> Projet de fin d'année (en cours)</p>
+                <p><strong>Description :</strong> Réalisation d’un site de vente en ligne avec gestion dynamique des produits, panier, et administration. Le projet a permis de traiter des données côté client et serveur.</p>
+                <ul>
+                  <li>Affichage dynamique des produits et filtres</li>
+                  <li>Ajout au panier, validation de commande (fictive)</li>
+                  <li>Tableau de bord d’administration</li>
+                </ul>
+                <p><strong>Compétences mobilisées :</strong></p>
+                <ul>
+                  <li><strong>Développer la présence en ligne de l’organisation</strong>
+                    <ul>
+                      <li>Mise en place d’un site e-commerce avec interface utilisateur responsive</li>
+                      <li>Page d’accueil et navigation conçues pour accueillir les futures fonctionnalités du magasin</li>
+                    </ul>
+                  </li>
+                  <li><strong>Travailler en mode projet</strong>
+                    <ul>
+                      <li>Planification des étapes de développement (connexion, interface, base de données)</li>
+                      <li>Structuration progressive du code pour permettre l’ajout des prochaines fonctionnalités</li>
+                    </ul>
+                  </li>
+                  <li><strong>Mettre à disposition des utilisateurs un service informatique</strong>
+                    <ul>
+                      <li>Déploiement local du site via WAMP avec test des fonctionnalités réalisées</li>
+                      <li>Création de compte, authentification avec mot de passe hashé, interface utilisateur fonctionnelle</li>
+                    </ul>
+                  </li>
+                </ul>
+                <a href="pdf/Site_Ecommerce_PersonaWORLD_Mustapha.pdf" class="cta-button" target="_blank">Voir</a>
+                 </div>
+            </div>
+          </div>
+      
+          <!-- Application mobile Modal -->
+          <div id="modal-mobile" class="project-modal">
+            <div class="modal-content">
+              <h3>Application mobile</h3>
+              <div class="modal-details">
+                <p><strong>Période :</strong>Janvier - Mai 2025</p>
+                <p><strong>Contexte :</strong> Projet de fin d'année (E6)</p>
+                <p><strong>Description :</strong> Développement d’une application mobile connectée à la même base de données
+                 que le site e-commerce,pour permettre aux utilisateurs de gérer leur compte et effectuer des achats sur mobile. Fonctionnalités déjà implémentées :</p>
+                <ul>
+                  <li>Création de compte et authentification (avec hashage des mots de passe)</li>
+                  <li>Connexion à la base de données commune avec le site</li>
+                </ul>
+                <p><strong>Compétences mobilisées :</strong></p>
+                <ul>
+                  <li><strong>Travailler en mode projet :</strong>
+                    <ul>
+                      <li>Structuration du code en différentes couches (front-end, back-end, base de données).</li>
+                      <li>Utilisation d’outils de développement  (Flutter, Node.js, MySQL, VS Code).</li>
+                    </ul>
+                  </li>
+                  <li><strong>Mettre à disposition des utilisateurs un service informatique</strong>
+                    <ul>
+                      <li>Mise en place d’un service web (API REST) permettant l’inscription et la connexion des utilisateurs.e</li>
+                      <li>Déploiement d’une interface mobile avec Flutter connectée à une base de données MySQL via une API sécurisée.</li>
+                    </ul>
+                  </li>
+                  <li><strong>Répondre aux incidents et aux demandes d’assistance et d’évolution</strong>
+                    <ul>
+                      <li> Gestion des erreurs côté client et serveur (retours d’état HTTP, messages d’erreur)</li>
+                      <li>Sécurisation des mots de passe avec bcrypt.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <a href="pdf/App_Mobile_Mustapha.pdf" class="cta-button" target="_blank">Voir</a>
+                </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+</section>
+
+    <!-- Certifications Section -->
+    <section id="certif" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            
+
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Certification PIX</h3>
+                        <p>Date d'obtention - Mars 2023</p>
+                        <a href="pdf/certification-pix-20230317.pdf" class="cta-button" target="_blank">Voir</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Certification PIX</h3>
+                        <p>Date d'obtention - Janvier 2024</p>
+                        <a href="pdf/certification-pix-20250124 (1).pdf" class="cta-button" target="_blank">Voir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="cont" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:mustaphachouhani2@gmail.com">mustaphachouhani2@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Localisation</h3>
+                            <p>28 Route d'Entraigues, 84700 Sorgues</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+33 7 49 53 52 06</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <p class="copyright">
+                    © <span id="year"></span> Mustapha Chouhani. 
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update copyright annee
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.skill-progress').forEach((el) => observer.observe(el));
+
+        // Menu hamburger
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
+// (Optionnel) Ferme le menu quand on clique sur un lien
+document.querySelectorAll('.nav-links a').forEach(link =>
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('show');
+  })
+);
+
+    </script>
+</body>
+</html>
+
+
